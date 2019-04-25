@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+     .fieldset-container1{
+         background-color: #6699ff;
+            border: 0px solid;
+             padding: 10px 20px;
+            -webkit-box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+            -moz-box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+            box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+         height: 200px;
+         font-family: cursive;
+        }
+    .fieldset-container2{
+        background-color: #6699ff;
+            border: 0px solid;
+             padding: 10px 20px;
+            -webkit-box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+            -moz-box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+            box-shadow: 2px 3px 43px 11px rgba(0,0,0,1);
+         height: 80px;
+        font-family: cursive;
+        }
+</style>
+</head>
+<body style="background-color: #ccddff">
+
+<div class="header">
+  <h1>DAILY NEWS REPORT</h1>
+  
+  <marquee direction="up" scrollamount=4.5 class="fieldset-container1">
+                   <center>
+                       <h3>Air India flight to San Francisco catches fire at Delhi airport</h3>
+The aircraft, Boeing B777-200LR (VT-ALF), was bound for a flight to San Francisco. The incident took place while the aircraft was still at the bay.
+<h3>J&K: 2 terrorists killed in encounter in Bijbehara town
+Sources said that both the terrorists are believed to be locals belonging to Hizb outfit.</h3>Sources said that both the terrorists are believed to be locals belonging to Hizb outfit.
+                   <h3>Seven, including 4 women arrested for kidnapping, selling children in Andhra Pradesh 
+</h3>Prime accused V Gangadhar Reddy along with six others, including four women, were nabbed from different parts of Andhra Pradesh by special teams of Hyderabad Police and based on their information three babies were rescued, they said.
+                    <h3>Interpol will not succumb to pressure by Modi govt to issue RCN against me: Zakir Naik
+ </h3>Zakir Naik is wanted by the National Investigative Agency (NIA) on charges of propagating terrorism.
+                   <h3>Lawyer Utsav Bains says country's biggest corporates conspiring against CJI </h3>Ranjan Gogoi
+Bains, who made sensational claims that he was offered money to frame CJI Ranjan Gogoi in a sexual harassment case, has claimed in court that the mastermind behind the conspiracy is one of the biggest corporates in the country. 
+                    </center>
+                </marquee>
+                
+</div>
+
+<div class="topnav">
+  
+  <a href="./politics.html">POLITICS</a>
+  <a href="./sports.html">SPORTS</a>
+</div>
+
+
+  
+  <div class="column">
+    <h2>POLITICS NEWS - Top Stories</h2>
+    <div class="fieldset-container2">'Congress ready for Delhi tie-up with AAP': Rahul Gandhi's proposal only meant to keep doors open for post-poll alliance</div>
+    <br>
+    <div class="fieldset-container2">Lok Sabha Election 2019 LIVE updates: All eyes on Varanasi as top NDA leaders converge for Narendra Modi's mega show of strength</div>
+    <br>
+    <div class="fieldset-container2">The majority is already with Modi; when the Muslim and Dalit quit eating beef and fall in love with him, Hindu Rashtra will be realised</div><br>
+     <div class="fieldset-container2">Politics in a tea cup: Modi factor vs caste equation in Barmer
+With the morning tea served hot and fresh and newspapers by their side, the visitors passionately discuss politics. In northern India, tea and politics in any case go side by side.</div>
+    <br>
+       <div class="fieldset-container2">The Supreme Court’s conservative majority seems poised to allow the Trump administration to add a question on citizenship to the 2020 census. Adding the question, government experts said, could depress participation in the census</div>
+    <br>
+  </div>
+  
+  <div class="column">
+    <h2>SPORTS NEWS - Top Stories</h2>
+    <div class="fieldset-container2">De Villiers delivers: unbeaten 82 off 44 balls as RCB beat KXIP
+De Villiers makes an unbeaten 82 off 44 balls as RCB beat KXIP to keep their playoff hopes alive.</div>
+    <br>
+    <div class="fieldset-container2">Kunming Open: Ankita Raina punches above her weight, downs former US Open champion Samantha Stosur
+India’s highest ranked women’s singles player Ankita Raina had just pulled off her first win over 100 people.</div>
+    <br>
+    <div class="fieldset-container2">
+India football coach job attracts ‘all types’
+Brazilian intellectual, Serb playmaker, Swiss journeyman — along with Eriksson, Domenech — apply for Indian football national team's coach job.</div><br>
+     <div class="fieldset-container2">Asian Athletics Championships: PU Chitra pips Africans to win gold
+Defends 1,500m gold by beating naturalised Bahraini runners; men’s 4x400m relay team disqualifed.</div>
+    <br>
+       <div class="fieldset-container2">Lodha reforms: State units convey reservations to amicus curiae
+Many members feels that the Committee of Administrators (CoA) has taken liberties while drafting the new BCCI constitution.</div>
+    <br>
+  </div>
+
+
+</body>
+</html>
+
+
+
+
